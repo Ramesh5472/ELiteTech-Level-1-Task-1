@@ -1,0 +1,134 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff6600;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-color: #f0f0f0;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .hero button:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Features Section Styles */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .feature {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  footer ul li {
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    color: #ff6600;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
